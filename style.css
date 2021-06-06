@@ -1,0 +1,116 @@
+.btn-active {
+    font-weight: 500;
+    font-size: 14px;
+}
+.tlm-section {
+    padding: 30px 0;
+}
+.section-header {
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+.tlm-advantages .tlm-adv-list .tlm-adv-item {
+    text-align: center;
+}
+.tlm-advantages .tlm-adv-list .tlm-adv-item img {
+    width: 300px;
+}
+.tlm-advantages .tlm-adv-list .tlm-adv-item p {
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.tlm-students-parents .stats-block {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.tlm-students-parents .stats-block img {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: auto;
+    height: 42px;
+}
+.tlm-students-parents .stats-block .count {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #9AAFBF;
+}
+.tlm-students-parents .stats-block .name {
+    font-size: 18px;
+    line-height: 26px;
+    color: #333;
+}
+.home-banner {
+    width: 100%;
+    height: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatsApp-button {
+    background-color: #455A64;
+    color: #fff;
+    padding: 8px;
+    width: 300px;
+}
+.whatsApp-section a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+.tlm-footer {
+    background-color: #0a2a66;
+    color: #8295BA;
+}
+.tlm-mission p a {
+    text-decoration: none;
+    color: #fff;
+}
+.tlm-footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.tlm-footer ul li a:hover{
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1199.98px) { 
+    .tlm-advantages .tlm-adv-list .tlm-adv-item img {
+        width: 250px;
+    }
+}
+@media (max-width: 991.98px) {
+    .tlm-advantages {
+        padding-top: 30px!important;
+    }
+    .tlm-advantages .tlm-adv-list .tlm-adv-item {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .tlm-advantages .tlm-adv-list .tlm-adv-item img {
+        width: 250px;
+    }
+    .tlm-students-parents .stats-block .count {
+        font-size: 24px;
+    }
+    .tlm-students-parents .stats-block .name {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .tlm-mission {
+    text-align: center;
+    padding-bottom: 30px;
+    }
+}
